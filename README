@@ -1,0 +1,12 @@
+AUTENTICACAO FACEBOOK
+
+-----------------------
+Registrar a API do facebook no web.config nos seguintes campos:
+<appSettings>
+    <add key="AppID" value=""/>
+    <add key="AppSecret" value=""/>
+    <add key="UrlDestino" value=""/>
+</appSettings>
+---------------------
+
+O Retorno do Objecto é manipulado com a API JSON .NET, caso necessite de mais informacoes apenas alterar a STRUCT INFOPERSON.
