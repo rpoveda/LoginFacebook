@@ -1,4 +1,4 @@
-AUTENTICACAO FACEBOOK
+AUTENTICACAO FACEBOOK -> Versao 1.0
 
 -----------------------
 Registrar a API do facebook no web.config nos seguintes campos:
@@ -9,4 +9,6 @@ Registrar a API do facebook no web.config nos seguintes campos:
 </appSettings>
 ---------------------
 
-O Retorno do Objecto é manipulado com a API JSON .NET, caso necessite de mais informacoes apenas alterar a STRUCT INFOPERSON.
+O Retorno do Objecto é manipulado com a API JSON .NET, caso necessite de mais informacoes apenas alterar a STRUCT INFOPERSON e o Metodo ReturnObject.
+
+Metodo ReturnJson retorna o JSON completo do Facebook.
